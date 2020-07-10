@@ -7,6 +7,7 @@ This project was realised with [pasosa-s](https://github.com/pasosa-s), neil and
 ## Our project
 
 Instead of going for a Doom or Duke Nukem 3D clone, we choose to call our project *The Binding Of Isaac 3D*. By using some sprites from *The Binding of Isaac: Rebirth* game and re-drawing some other ones from scratch, we tried to envision what this top-down game, using two-dimensional sprites, would look like in 3d. Our game is in no way a clone of the original title, but simply a tribute to it.
+
 This project is an evolution of our first program : [Wolf3d](https://github.com/JulienMousset/Wolf3d).
 
 ## How to use
@@ -37,6 +38,7 @@ Have fun!
 ## Warning
 
 This project was orginally started on Mac OS at our school, but was finished on Linux from home during the quarantine due to the Coronavirus COVID-19. It runs perfectly on Linux, but might not work on Mac OS.
+
 If you are a Mac user, you can still give it a try since our Makefile is compiling either a Linux or a Mac OS version depending on the machine you are using. You might be met with some compiling issues with SDL2 frameworks and have some in-game problems like color inversion, but feel free to give it a try. I don't have a Mac OS so I don't feel like working on those compatibility issues, but don't hesitate to hit me up if you are trying to make it work and need help in the process.
 
 ## Screenshots
