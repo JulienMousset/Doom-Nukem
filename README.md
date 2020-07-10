@@ -1,25 +1,43 @@
-## doom-nukem-isaac
+# Doom Nukem
 
-Game: pasosa-s, jmousset
+Doom Nukem is a project that is a mix between Doom and Duke Nukem 3D. The project's goal is to create the realistic 3D graphic representation that you would have from a subjective view within a maze, using ray-casting to achieve that. No hardware acceleration and no 3D library are used.
 
-Editor: neil
+This project was realised with [@pasosa-s](https://github.com/pasosa-s), @neil and @brume.
 
-Menus: brume
+## Our project
 
-### Compile & run
+Instead of going for a Doom or Duke Nukem 3D clone, we choose to call our project *The Binding Of Isaac 3D*. By using some sprites from *The Binding of Isaac: Rebirth* game and re-drawing some other ones from scratch, we tried to envision what this top-down game, using two-dimensional sprites, would look like in 3d. Our game is not a clone of the original title, but a little tribute to it.
+This project is an evolution of our first program : [Wolf3d](https://github.com/JulienMousset/Wolf3d).
 
-This program can run on Linux only. Compatibility with Mac OS has been abandoned, it might work or might not.
+## How to use
 
-You will need the following packages:
+In order to successfully compile our program, you will need to install the following SDL2 packages :
 - libsdl2-dev
 - libsdl2-image-dev
 - libsdl2-mixer-dev
 - libsdl2-ttf-dev
 
-Then run make. It will compile our libft, then the program itself.
+Then :
+- Compile : `make`
+- Remove object files : `make clean`
+- Remove object files and program : `make fclean`
+- Start fresh and re-compile : `make re`
 
-You can run it with `./doom-nukem`.
+## Executing
 
-If you want to edit a specific map, you can use the `--editor` command: `./doom-nukem --editor maps/level_3`.
+Execute the program like this : `./doom-nukem`
 
-Enjoy.
+You can also directly execute the program with the map of your choice like this : `./doom-nukem maps/level_1`
+
+You can create your own map or play with one of our own three levels that are in the `maps` folder.
+You will find an in-game editor that you can access through the game main menu, allowing you to edit or create maps.
+If you want to edit a specific map, you can also directly use the `--editor` command this way : `./doom-nukem --editor maps/level_3`.
+
+Have fun!
+
+## Warning
+
+This project was orginally started on Mac OS at our school, but was finished on Linux from home during the quarantine due to the Coronavirus COVID-19. It runs perfectly on Linux, but might not work on Mac OS.
+If you are a Mac user, you can still give it a try since our Makefile is compiling either a Linux or a Mac OS version depending on the machine you are using. You might be met with some compiling issues with SDL2 frameworks and have some in-game problems like color inversion, but feel free to give it a try. I don't have a Mac OS so I don't feel like working on those compatibility issues, but feel free to hit me up if you are trying to make it work and need help in the process.
+
+## Screenshots
