@@ -26,8 +26,7 @@ Then :
 
 ## Executing
 
-Execute the program this way : `./doom-nukem` or directly with the map of your choice like this : `./doom-nukem maps/level_1`.FR
-
+Execute the program this way : `./doom-nukem` or directly with the map of your choice like this : `./doom-nukem maps/level_1`.
 You can create your own map or play with one of our own three levels that are in the `maps` folder.
 
 There is an in-game editor that you can access through the game main menu, allowing you to edit or create maps.
