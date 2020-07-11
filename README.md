@@ -41,3 +41,14 @@ This project was orginally started on Mac OS at our school, but was finished on 
 If you are a Mac user, you can still give it a try since our Makefile is compiling either a Linux or a Mac OS version depending on the machine you are using. You might be met with some compiling issues with SDL2 frameworks and have some in-game problems like color inversion, but feel free to give it a try. I don't have a Mac OS so I don't feel like working on those compatibility issues, but don't hesitate to hit me up if you are trying to make it work and need help in the process.
 
 ## Screenshots
+
+![](Screenshots/doom-nukem1.png)
+![](Screenshots/doom-nukem2.png)
+![](Screenshots/doom-nukem3.png)
+![](Screenshots/doom-nukem4.png)
+![](Screenshots/doom-nukem5.png)
+![](Screenshots/doom-nukem6.png)
+![](Screenshots/doom-nukem7.png)
+![](Screenshots/doom-nukem8.png)
+![](Screenshots/doom-nukem9.png)
+![](Screenshots/doom-nukem10.png)
